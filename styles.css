@@ -1,0 +1,200 @@
+.portfolio-item {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+}
+/* Загальні стилі */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #333333; /* Основний текстовий колір */
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Скидання відступів для списків */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Хедер */
+header {
+  background-color: #1d1e35; /* Темно-синій фон */
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header nav a {
+  color: #00bcd4; /* Логотип - бірюзовий */
+  font-size: 24px;
+  font-weight: 700;
+}
+
+header nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover,
+header nav ul li a:focus {
+  color: #00bcd4; /* Ховер та фокус */
+}
+
+header address {
+  text-align: right;
+  font-size: 14px;
+}
+
+header address ul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+header address ul li a:hover,
+header address ul li a:focus {
+  color: #00bcd4; /* Ховер контактів */
+}
+
+/* Секція Hero */
+section {
+  padding: 60px 15px;
+}
+
+section h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-family: inherit;
+  background-color: #00bcd4;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+section button:hover,
+section button:focus {
+  background-color: #008c9e;
+}
+
+/* Секція Features */
+.features {
+  background-color: #f8f8f8; /* Світло-сірий фон */
+}
+
+.features ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.features li {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.features h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #1d1e35;
+}
+
+.features p {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Секція Our Team */
+.team {
+  background-color: #e5e5e5; /* Попелястий фон */
+}
+
+.team ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.team li {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #1d1e35;
+}
+
+.team p {
+  font-size: 14px;
+  color: #555555;
+}
+
+/* Футер */
+footer {
+  background-color: #1d1e35;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #00bcd4; /* Логотип */
+  font-size: 24px;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 14px;
+  margin-top: 10px;
+}
