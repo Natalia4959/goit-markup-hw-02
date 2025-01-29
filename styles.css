@@ -1,32 +1,16 @@
-.portfolio-item {
-  font-family: "Roboto", sans-serif;
-  color: #333333;
-}
 /* Загальні стилі */
 body {
   font-family: "Roboto", sans-serif;
-  color: #333333; /* Основний текстовий колір */
+  color: #434455;
   background-color: #ffffff;
   font-size: 16px;
   line-height: 1.5;
   margin: 0;
 }
 
-/* Скидання відступів для списків */
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* Хедер */
 header {
-  background-color: #1d1e35; /* Темно-синій фон */
+  background-color: #2e2f42; /* Зміна фону */
   color: #ffffff;
   padding: 20px 0;
 }
@@ -41,9 +25,13 @@ header nav {
 }
 
 header nav a {
-  color: #00bcd4; /* Логотип - бірюзовий */
-  font-size: 24px;
-  font-weight: 700;
+  color: #4d5ae5; /* Логотип */
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 header nav ul {
@@ -59,12 +47,13 @@ header nav ul li a {
 
 header nav ul li a:hover,
 header nav ul li a:focus {
-  color: #00bcd4; /* Ховер та фокус */
+  color: #404bbf; /* Ховер та фокус */
 }
 
 header address {
   text-align: right;
   font-size: 14px;
+  font-style: normal;
 }
 
 header address ul {
@@ -75,7 +64,7 @@ header address ul {
 
 header address ul li a:hover,
 header address ul li a:focus {
-  color: #00bcd4; /* Ховер контактів */
+  color: #404bbf;
 }
 
 /* Секція Hero */
@@ -84,11 +73,13 @@ section {
 }
 
 section h1 {
-  font-size: 56px;
-  font-weight: 700;
-  color: #ffffff;
+  font-size: 36px; /* Розмір заголовка */
+  font-weight: 500;
+  line-height: 1.11;
   text-align: center;
-  margin-bottom: 20px;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 section button {
@@ -97,7 +88,7 @@ section button {
   padding: 10px 20px;
   font-size: 16px;
   font-family: inherit;
-  background-color: #00bcd4;
+  background-color: #4d5ae5;
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -107,12 +98,12 @@ section button {
 
 section button:hover,
 section button:focus {
-  background-color: #008c9e;
+  background-color: #404bbf;
 }
 
 /* Секція Features */
 .features {
-  background-color: #f8f8f8; /* Світло-сірий фон */
+  background-color: #f4f4fd;
 }
 
 .features ul {
@@ -134,17 +125,19 @@ section button:focus {
 .features h3 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #1d1e35;
+  color: #2e2f42;
 }
 
 .features p {
-  font-size: 14px;
-  color: #555555;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* Секція Our Team */
 .team {
-  background-color: #e5e5e5; /* Попелястий фон */
+  background-color: #e5e5e5;
 }
 
 .team ul {
@@ -169,26 +162,30 @@ section button:focus {
 .team h3 {
   font-size: 18px;
   margin-bottom: 5px;
-  color: #1d1e35;
+  color: #2e2f42;
 }
 
 .team p {
-  font-size: 14px;
-  color: #555555;
+  font-size: 16px;
+  color: #434455;
 }
 
 /* Футер */
 footer {
-  background-color: #1d1e35;
+  background-color: #2e2f42;
   color: #ffffff;
   text-align: center;
   padding: 20px;
 }
 
 footer a {
-  color: #00bcd4; /* Логотип */
-  font-size: 24px;
-  font-weight: 700;
+  color: #4d5ae5; /* Логотип */
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 footer p {
